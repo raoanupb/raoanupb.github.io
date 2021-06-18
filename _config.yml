@@ -1,0 +1,57 @@
+###########
+# site.title
+
+title: Anup B. Rao
+description: A minimal Jekyll theme inspired by Tufte CSS
+url: ""
+host: 127.0.0.1
+
+
+#########################
+# more settings
+
+markdown: kramdown
+
+compress_html:
+  clippings: all
+  comments: [""]
+  endings: [html, head, body, li, dt, dd, rt, rp, optgroup, option, colgroup, caption, thead, tbody, tfoot, tr, td, th]
+  profile: false
+  blanklines: false
+  ignore:
+    envs: []
+
+sass:
+  sass_dir: css
+  style:    compressed
+
+baseurl: ""
+permalink: pretty
+timezone: America/New_York
+future: false
+
+collections:
+  publications:
+    output: true
+    permalink: /:collection/:path/
+
+include:
+  - .htaccess
+  - _pages
+  - files
+  
+exclude:
+- README.md
+- LICENSE.md
+
+# Site Author
+author:
+  name             : "Your Sidebar Name"
+  avatar           : "profile.png"
+  bio              : "Your biography for the left-hand sidebar"
+  location         : "Location"
+  employer         :
+  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  googlescholar    : "http://yourfullgooglescholarurl.com"
+  email            :
+  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
