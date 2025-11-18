@@ -3,9 +3,10 @@ title: "Determinant-Preserving Sparsification of SDDM Matrices with Applications
 collection: publications
 permalink: /publication/2010-10-01-paper-title-number-2
 authors: 'David Durfee, John Peebles, Richard Peng, Anup B. Rao'
-excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
+excerpt: 'Sparsification technique that preserves determinants with applications to graph algorithms.'
 date: 2017-01-01
 venue: 'FOCS'
-paperurl: 'http://academicpages.github.io/files/paper2.pdf'
-citation: 'Your Name, You. (2010). &quot;Paper Title Number 2.&quot; <i>Journal 1</i>. 1(2).'
+venue_class: 'theory'
+paperurl: 'https://arxiv.org/abs/1705.00985'
+citation: 'Durfee, D., et al. (2017). Determinant-Preserving Sparsification. In FOCS 2017.'
 ---
