@@ -393,10 +393,9 @@ nav {
 }
 
 /* Venue color coding */
-.ml-top { background: #ffe6e6; color: #c00; } /* NeurIPS, ICML, ICLR */
+.ml-top { background: #ffe6e6; color: #c00; } /* NeurIPS, ICML, AISTATS, RLC */
 .theory { background: #e6f0ff; color: #0066cc; } /* FOCS, COLT */
-.vision-stats { background: #e6ffe6; color: #008000; } /* ECCV, AISTATS */
-.other { background: #fff4e6; color: #cc6600; } /* SIGMOD, RLC */
+.other { background: #fff4e6; color: #cc6600; } /* SIGMOD, ECCV */
 
 .pub-abstract {
     margin-top: 0.5rem;

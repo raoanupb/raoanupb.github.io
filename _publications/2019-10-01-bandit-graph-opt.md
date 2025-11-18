@@ -6,7 +6,7 @@ permalink: /publication/2009-10-01-paper-title-number-1
 excerpt: 'Graph-based optimization algorithms with sample efficiency guarantees under noisy feedback.'
 date: 2019-01-01
 venue: 'AISTATS'
-venue_class: 'vision-stats'
+venue_class: 'ml-top'
 paperurl: 'https://arxiv.org/abs/1811.08639'
 citation: 'Nguyen, T. T., et al. (2019). Sample Efficient Graph-Based Optimization with Noisy Queries. In AISTATS 2019.'
 ---
