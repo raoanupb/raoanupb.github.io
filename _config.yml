@@ -2,8 +2,8 @@
 # site.title
 
 title: Anup B. Rao
-description: A minimal Jekyll theme inspired by Tufte CSS
-url: ""
+description: Research Scientist at Adobe Research - Fast Algorithms, Machine Learning, and Causal Inference
+url: "https://raoanupb.github.io"
 host: 127.0.0.1
 
 
@@ -30,6 +30,12 @@ permalink: pretty
 timezone: America/New_York
 future: false
 
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-paginate
+
 collections:
   publications:
     output: true
@@ -46,12 +52,12 @@ exclude:
 
 # Site Author
 author:
-  name             : "Your Sidebar Name"
-  avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
-  location         : "Location"
-  employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
+  name             : "Anup B. Rao"
+  avatar           : "me.jpg"
+  bio              : "Research Scientist at Adobe Research"
+  location         : "San Jose, CA"
+  employer         : "Adobe Research"
+  pubmed           :
+  googlescholar    :
   email            :
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  researchgate     :
